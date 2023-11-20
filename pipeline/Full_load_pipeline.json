@@ -176,10 +176,7 @@
 								},
 								"sink": {
 									"type": "AzureSqlSink",
-									"preCopyScript": {
-										"value": "@{concat('truncate table ',item().sqlschemaname,'.',item().sqltablename)}",
-										"type": "Expression"
-									},
+									"preCopyScript": "@{concat('truncate table ',item().sqlschemaname,'.',item().sqltablename)}",
 									"writeBehavior": "insert",
 									"sqlWriterUseTableLock": false,
 									"tableOption": "autoCreate",
