@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimeMSI",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "MSI integration runtime"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "datafactoryadarsh",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e037d9d3-4a88-4b92-9c26-ed043bca9aa0",
+		"tenantId": "b7dd2c3c-6be3-4dad-afa6-1214a2ddd2c4"
+	}
+}
