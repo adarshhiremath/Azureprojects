@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactoryadarsh"
+		},
+		"AzureDataLakeStoragelinkedservice_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": "Integrated Security=True;Data Source=ADARSH;Initial Catalog=azure"
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStoragelinkedservice_properties_typeProperties_url": {
+			"value": "https://datalakegen1234.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://KeyvaultSQL123.vault.azure.net/"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "adarshhiremath1996@gmail.com"
+		}
+	}
+}
