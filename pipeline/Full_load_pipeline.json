@@ -216,11 +216,11 @@
 									"referenceName": "AzureSqlTable2",
 									"type": "DatasetReference",
 									"parameters": {
-										"schemaname": {
+										"sqlschemaname": {
 											"value": "@item().sqlschemaname",
 											"type": "Expression"
 										},
-										"tablename": {
+										"sqltablename": {
 											"value": "@item().sqltablename",
 											"type": "Expression"
 										}
